@@ -6,7 +6,6 @@ function Gettext() {
   const [lists, setLists] = useState([])
   const [text, setText] = useState([])
   const [clicked, setClicked] = useState([])
-  const [jsfile, setJsfile] =useState([])
 
 
   let jsonfile2 = 'https://api.github.com/repos/gilmujjang/web/contents/small'
@@ -30,13 +29,6 @@ function Gettext() {
       .then(response => {
         setText(response)
       })
-
-  fetch(js)
-    .then(response => response.text())
-    .then(response => {
-      setJsfile(response)
-    })
-
 
 
   return (
