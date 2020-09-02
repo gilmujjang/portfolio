@@ -26,6 +26,9 @@ body{
   padding: 5px 0;
   background: #999;
   border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
 }
 
 .header{

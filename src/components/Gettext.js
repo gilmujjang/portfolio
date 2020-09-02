@@ -37,6 +37,7 @@ function Gettext() {
         <script src={js} defer></script>
      </Helmet>
       <div className="gitlists">
+        <a className="gitlist" href="https://gilmujjang.github.io/movieapp_nomadcoder/#/">Nomad-coder Movie App</a>
         {lists.map(list => <a className="gitlist" onClick={function(e) {
           e.preventDefault();
           setClicked(list.name)
