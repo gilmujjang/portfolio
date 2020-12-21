@@ -38,6 +38,7 @@ function Gettext() {
      </Helmet>
       <div className="gitlists">
         <a className="gitlist" href="https://gilmujjang.github.io/movieapp_nomadcoder/#/">Nomad-coder Movie App</a>
+        <a className="gitlist" href="https://gilmujjang.github.io/nwitter_nomadcoder//#/">Nomad-coder Nwitter</a>
         {lists.map(list => <a className="gitlist" onClick={function(e) {
           e.preventDefault();
           setClicked(list.name)
