@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
-import Contents from './components/Contents'
+import Welcome from './components/Welcome'
+import About from './components/About'
+import Gettext from './components/Gettext'
 import './App.css';
 
 
 class App extends Component {
   
-  constructor(props){
-    super(props);
-    this.state = {
-      contents: [
-      ]
-    }
-  }
   render(){
     return (
       <div className="App">
         <Header></Header>
-        <div className="content">
-          <Contents></Contents>
-        </div>
+        <Welcome></Welcome>
+        <About></About>
+        <Gettext></Gettext>
       </div>
     );
   }

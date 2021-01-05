@@ -1,5 +1,6 @@
 import React, { Component, useEffect, useState } from 'react';
 import Gettext from "./Gettext"
+import Welcome from "./Welcome"
 import '../App.css';
 
 class Contents extends Component{
@@ -8,6 +9,7 @@ class Contents extends Component{
     
     return(
       <div>
+        <Welcome></Welcome>
         <Gettext></Gettext>
       </div>
     )

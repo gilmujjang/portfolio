@@ -32,7 +32,7 @@ function Gettext() {
 
 
   return (
-    <div className="contents">
+    <div>
       <Helmet>
         <script src={js} defer></script>
      </Helmet>
