@@ -1,18 +1,28 @@
 import React, { Component } from 'react';
+import myphoto from '../photo/myphoto.jpeg';
+import logo from '../photo/logo.jpg';
 import '../App.css';
 
 class About extends Component{
   render(){
     return(
-      <div className="about">
+      <div className="layer">
         <h2>About</h2>
-        <div className="row">
-          <h4>PROFILE</h4>
-          <p>사진</p>
-        </div>
-        <div className="row">
-          <h4>school</h4>
-          <p>킹오공대</p>
+        <div className="row_content">
+          <div className="row">
+            <h4>PROFILE</h4>
+            <img src={myphoto} width='96px'/>
+          </div>
+          <div className="row">
+            <h4>school</h4>
+            <img src= {logo} width='256px'/>
+            <p>기계시스템 공학과 재학중</p>
+          </div>
+          <div className="row">
+            <h4>취미</h4>
+            <p>테니스</p>
+            <p>체스</p>
+          </div>
         </div>
       </div>
     )
