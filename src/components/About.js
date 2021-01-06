@@ -4,16 +4,16 @@ import '../App.css';
 class About extends Component{
   render(){
     return(
-      <div className="About">
+      <div className="about">
         <h2>About</h2>
-        <span className="row">
+        <div className="row">
           <h4>PROFILE</h4>
           <p>사진</p>
-        </span>
-        <span className="row">
+        </div>
+        <div className="row">
           <h4>school</h4>
           <p>킹오공대</p>
-        </span>
+        </div>
       </div>
     )
   }

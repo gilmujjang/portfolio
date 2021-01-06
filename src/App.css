@@ -3,11 +3,9 @@ body{
   margin: 0;
 }
 .about{
-
 }
 
 .welcome{
-  float: left;
   padding-top: 64px;
   background-color: #000;
   font-size: 36px;
