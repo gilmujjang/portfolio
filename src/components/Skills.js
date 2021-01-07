@@ -9,6 +9,7 @@ class Skills extends Component{
   render(){
     return(
       <div className="layer">
+        <a id="skills"/>
         <h2>SKILLS</h2>
         <div className="row_content">
           <div className="icon">

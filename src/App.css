@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
 body{
   padding: 0;
   margin: 0;
@@ -17,6 +19,7 @@ body{
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 128px;
 }
 
 .skill{
@@ -39,7 +42,7 @@ body{
 .welcome{
   padding-top: 64px;
   background-color: #000;
-  font-size: 36px;
+  font-size: 64px;
   font-weight: 500;
   color: #fff;
   width: 100vw;
@@ -49,7 +52,7 @@ body{
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 
@@ -83,10 +86,23 @@ body{
   top: 0;
   left: 0;
   right: 0;
-  padding: 6px;
+  padding: 2px;
   display: flex;
   text-align:center;
   align-items: center;
   justify-content: space-between;
   background: #fff;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+
+.header a{
+  padding: 24px;
+  font-size: 24px;
+  margin-right: 60px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
 }

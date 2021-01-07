@@ -7,15 +7,16 @@ class About extends Component{
   render(){
     return(
       <div className="layer">
+        <a id="about"/>
         <h2>About</h2>
         <div className="row_content">
           <div className="row">
             <h4>PROFILE</h4>
-            <img src={myphoto} width='96px'/>
+            <img src={myphoto} width='96px' alt='내 사진'/>
           </div>
           <div className="row">
             <h4>school</h4>
-            <img src= {logo} width='256px'/>
+            <img src= {logo} width='256px' alt='금오공대 로고'/>
             <p>기계시스템 공학과 재학중</p>
           </div>
           <div className="row">
