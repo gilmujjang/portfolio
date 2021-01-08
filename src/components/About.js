@@ -9,7 +9,7 @@ class About extends Component{
       <div className="layer">
         <a id="about"/>
         <h2>About</h2>
-        <div className="row_content">
+        <div className="row_content" id="about_content">
           <div className="row">
             <h4>PROFILE</h4>
             <img src={myphoto} width='96px' alt='내 사진'/>
