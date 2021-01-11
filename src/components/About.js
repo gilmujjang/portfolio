@@ -22,7 +22,7 @@ class About extends Component{
           <div className="row">
             <h4>취미</h4>
             <p>테니스</p>
-            <p>체스</p>
+            <p>체스 : 체스닷컴 아이디 gilmujjang</p>
           </div>
         </div>
       </div>

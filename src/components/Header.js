@@ -5,12 +5,14 @@ class Header extends Component{
   render(){
     return(
       <div className="header">
-        <h2>길무짱의 포트폴리오</h2>
+        <a clasName="nav_tag_home" href="#welcome">
+          <h2>길무짱의 포트폴리오</h2>
+        </a>
         <div>
-          <a clasName="nav_tag" href="#welcome">welcome</a>
-          <a clasName="nav_tag" href="#about">about</a>
-          <a clasName="nav_tag" href="#skills">skills</a>
-          <a clasName="nav_tag" href="#project">project</a>
+          <a id="nav_tag" clasName="nav_tag" href="#welcome">welcome</a>
+          <a id="nav_tag" clasName="nav_tag" href="#about">about</a>
+          <a id="nav_tag" clasName="nav_tag" href="#skills">skills</a>
+          <a id="nav_tag" clasName="nav_tag" href="#project">project</a>
         </div>
       </div>
     )
